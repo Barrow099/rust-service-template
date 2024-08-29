@@ -2,7 +2,7 @@ fn main() {
     init_logger();
 
     eprintln!(
-        "starting {} v{} ({} {} built: {})",
+        "starting {} v{} (commit {}, branch {}, built {})",
         env!("CARGO_PKG_NAME"),
         env!("CARGO_PKG_VERSION"),
         option_env!("BUILD_GIT_HASH").unwrap_or("N/A"),
