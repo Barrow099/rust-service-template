@@ -1,0 +1,10 @@
+[package]
+name = "service-template"
+#name = "{{project-name}}"
+version = "1.0.0"
+authors = ["{{authors}}"]
+edition = "2021"
+
+[dependencies]
+tracing = "0.1"
+tracing-subscriber = { version = "0.3", features = ["env-filter"] }
