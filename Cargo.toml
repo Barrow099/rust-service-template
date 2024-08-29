@@ -1,6 +1,5 @@
 [package]
-name = "service-template"
-#name = "{{project-name}}"
+name = "{{project-name}}"
 version = "1.0.0"
 authors = ["{{authors}}"]
 edition = "2021"
